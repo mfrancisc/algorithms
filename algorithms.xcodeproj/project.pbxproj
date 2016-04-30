@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0512BE651CCBDA56006F23EF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0512BE641CCBDA56006F23EF /* main.cpp */; };
+		0512BE6D1CCBEB0D006F23EF /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0512BE6B1CCBEB0D006F23EF /* QuickSort.cpp */; };
+		05A5D8F71CD4E910008318C2 /* RadixSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05B1D52A1CD4E04B002DA906 /* RadixSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,15 +21,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		05B1D52E1CD4E67D002DA906 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0512BE611CCBDA56006F23EF /* algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
-		0512BE641CCBDA56006F23EF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0512BE611CCBDA56006F23EF /* algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = algorithms; path = /Users/francisc/projects/algorithms/build/Debug/algorithms; sourceTree = "<absolute>"; };
+		0512BE6B1CCBEB0D006F23EF /* QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
+		0512BE6C1CCBEB0D006F23EF /* QuickSort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = QuickSort.hpp; sourceTree = "<group>"; };
+		05B1D52A1CD4E04B002DA906 /* RadixSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RadixSort.cpp; sourceTree = "<group>"; };
+		05B1D5301CD4E67D002DA906 /* RadixSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = RadixSort; path = /Users/francisc/projects/algorithms/build/Debug/RadixSort; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0512BE5E1CCBDA56006F23EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B1D52D1CD4E67D002DA906 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,25 +61,10 @@
 		0512BE581CCBDA56006F23EF = {
 			isa = PBXGroup;
 			children = (
-				0512BE631CCBDA56006F23EF /* algorithms */,
-				0512BE621CCBDA56006F23EF /* Products */,
+				05B1D52A1CD4E04B002DA906 /* RadixSort.cpp */,
+				0512BE6B1CCBEB0D006F23EF /* QuickSort.cpp */,
+				0512BE6C1CCBEB0D006F23EF /* QuickSort.hpp */,
 			);
-			sourceTree = "<group>";
-		};
-		0512BE621CCBDA56006F23EF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0512BE611CCBDA56006F23EF /* algorithms */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0512BE631CCBDA56006F23EF /* algorithms */ = {
-			isa = PBXGroup;
-			children = (
-				0512BE641CCBDA56006F23EF /* main.cpp */,
-			);
-			path = algorithms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +87,23 @@
 			productReference = 0512BE611CCBDA56006F23EF /* algorithms */;
 			productType = "com.apple.product-type.tool";
 		};
+		05B1D52F1CD4E67D002DA906 /* RadixSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05B1D5341CD4E67D002DA906 /* Build configuration list for PBXNativeTarget "RadixSort" */;
+			buildPhases = (
+				05B1D52C1CD4E67D002DA906 /* Sources */,
+				05B1D52D1CD4E67D002DA906 /* Frameworks */,
+				05B1D52E1CD4E67D002DA906 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadixSort;
+			productName = RadixSort;
+			productReference = 05B1D5301CD4E67D002DA906 /* RadixSort */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -94,6 +116,9 @@
 					0512BE601CCBDA56006F23EF = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					05B1D52F1CD4E67D002DA906 = {
+						CreatedOnToolsVersion = 7.3;
+					};
 				};
 			};
 			buildConfigurationList = 0512BE5C1CCBDA56006F23EF /* Build configuration list for PBXProject "algorithms" */;
@@ -104,11 +129,12 @@
 				en,
 			);
 			mainGroup = 0512BE581CCBDA56006F23EF;
-			productRefGroup = 0512BE621CCBDA56006F23EF /* Products */;
+			productRefGroup = 0512BE581CCBDA56006F23EF;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0512BE601CCBDA56006F23EF /* algorithms */,
+				05B1D52F1CD4E67D002DA906 /* RadixSort */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +144,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0512BE651CCBDA56006F23EF /* main.cpp in Sources */,
+				05A5D8F71CD4E910008318C2 /* RadixSort.cpp in Sources */,
+				0512BE6D1CCBEB0D006F23EF /* QuickSort.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B1D52C1CD4E67D002DA906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +254,20 @@
 			};
 			name = Release;
 		};
+		05B1D5351CD4E67D002DA906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05B1D5361CD4E67D002DA906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -239,6 +287,16 @@
 				0512BE6A1CCBDA56006F23EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05B1D5341CD4E67D002DA906 /* Build configuration list for PBXNativeTarget "RadixSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B1D5351CD4E67D002DA906 /* Debug */,
+				05B1D5361CD4E67D002DA906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
