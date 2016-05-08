@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0512BE601CCBDA56006F23EF"
-               BuildableName = "algorithms"
-               BlueprintName = "algorithms"
-               ReferencedContainer = "container:algorithms.xcodeproj">
+               BlueprintIdentifier = "05AAB6B71CDBEF5A00CECDFF"
+               BuildableName = "Working"
+               BlueprintName = "Working"
+               ReferencedContainer = "container:Working.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0512BE601CCBDA56006F23EF"
-            BuildableName = "algorithms"
-            BlueprintName = "algorithms"
-            ReferencedContainer = "container:algorithms.xcodeproj">
+            BlueprintIdentifier = "05AAB6B71CDBEF5A00CECDFF"
+            BuildableName = "Working"
+            BlueprintName = "Working"
+            ReferencedContainer = "container:Working.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0512BE601CCBDA56006F23EF"
-            BuildableName = "algorithms"
-            BlueprintName = "algorithms"
-            ReferencedContainer = "container:algorithms.xcodeproj">
+            BlueprintIdentifier = "05AAB6B71CDBEF5A00CECDFF"
+            BuildableName = "Working"
+            BlueprintName = "Working"
+            ReferencedContainer = "container:Working.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0512BE601CCBDA56006F23EF"
-            BuildableName = "algorithms"
-            BlueprintName = "algorithms"
-            ReferencedContainer = "container:algorithms.xcodeproj">
+            BlueprintIdentifier = "05AAB6B71CDBEF5A00CECDFF"
+            BuildableName = "Working"
+            BlueprintName = "Working"
+            ReferencedContainer = "container:Working.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
